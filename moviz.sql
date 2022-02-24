@@ -30,7 +30,7 @@ CREATE TABLE `film` (
   `budget` int DEFAULT NULL,
   `nom` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,6 +39,7 @@ CREATE TABLE `film` (
 
 LOCK TABLES `film` WRITE;
 /*!40000 ALTER TABLE `film` DISABLE KEYS */;
+INSERT INTO `film` VALUES (5,'1998-04-04','L histoire du plus grand paquebot de son epoque','anglais',200000000,'Titanic'),(6,'2012-10-23','Dans cet épisode le plus sombre de la saga, James Bond retourne à ses origines.','anglais',200000000,'Skyfall'),(7,'2017-01-25','Une histoire damour à Los Angeles sous forme de comédie musicale.','anglais',30000000,'La La Land');
 /*!40000 ALTER TABLE `film` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-02-24 16:50:10
+-- Dump completed on 2022-02-24 17:17:49
